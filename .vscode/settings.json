@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.port": 5501
+}
+settings.json
+
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
+}
+"bracket-pair-colorizer-2.colors" : [
+    " Gold " ,
+    " Orchid " ,
+    " LightSkyBlue " 
+]

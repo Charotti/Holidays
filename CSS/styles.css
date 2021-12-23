@@ -1,0 +1,262 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../Fonts/poppins.ttf");
+}
+@font-face {
+    font-family: "poppins-Medium";
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+header, #presentation, #formations, footer{
+    background-color: #0475ba;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: "poppins-medium";
+    
+   
+}
+h3{
+    font-size: 1.5rem;
+    font-family: "poppins-medium";
+}
+p{
+    font-family: "poppins";
+    font-size: 1.5rem;
+}
+
+#presentation, #experiences, #formations, #passions, footer{
+    padding-left: 25%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#experiences, #passions h2{
+    color: #0475ba;
+}
+/*HEADER*/
+header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+nav{
+    margin-left: 9rem;
+    
+}
+nav ul {
+    display: flex;
+   
+}
+nav ul li{
+    margin-right: 2rem;
+    list-style: none;
+    
+}
+nav a{
+    color: white;
+    font-family: "poppins-medium";
+    font-size: 1.7rem;
+}
+
+/*PROFIL*/
+
+.section-content{
+   
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.name-job{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10rem;
+}
+.name-job h1{
+    font-family: "poppins-medium";
+    margin-bottom: 1rem;
+}
+.name-job h2{
+    
+    color: #0475ba;
+    
+}
+img{
+    height: 150px;
+    width: 160px;
+    border-radius: 25rem;
+    margin-left: 20rem;
+    
+    
+}
+
+
+/*PRESENTATION*/
+
+#presentation, #experiences, #formations, #passions h2 {
+    margin-bottom: 2rem;
+}
+
+li{
+    font-size: 1.5rem;
+    
+}
+/*EXPERIENCES PROFESSIONNELLES*/
+
+
+.exp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.date{
+    margin-right: 25rem;
+}
+h2 p{
+    margin-top: 6rem;
+}
+#experiences h3 {
+    color:black
+}
+#experiences p{
+    color: black;
+}
+/*FOOTER*/
+.contact{
+    display: flex;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+.network{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+}
+.linkedin{
+    display: flex;
+   
+}
+.linkedin p{
+    margin-left: 1rem;
+   
+}
+.fa-linkedin{
+    
+    font-size: 2rem;
+}
+.twitter{
+    display: flex;
+}
+.twitter p{
+    margin-left: 1rem;
+}
+
+.fa-twitter{
+    font-size: 2rem;
+}
+
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    nav{
+        display:none;
+
+    }
+    h2{
+        text-align: left;
+        padding-bottom: 1rem;
+    }
+    #presentation, #experiences, #formations, #passions {
+        padding-left: 15rem;
+    }
+    footer{
+        padding-left: 5rem;
+    }
+    .name-job{
+        margin-left: 10rem;
+    }
+    .date{
+        margin-right:15rem;
+    }
+    img{
+        margin-left: 10rem;
+    }
+    }
+    @media screen and (min-width: 320px) and (max-width: 768px){
+    header, #presentation, #experiences, #formations, #passions, footer {
+        width: 50rem;
+        padding-left: 1rem;
+    }
+    h1{
+        
+        font-size:2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size{
+            1.2rem
+        }
+    }
+    nav{
+        display: none;
+    }
+    .section-content{
+        flex-direction: column;
+        
+        
+    }
+    .name-job{
+       display: flex;
+       margin: auto 20rem;
+       text-align: center; 
+
+    }
+    img{
+    width: 150px;
+    margin: auto 18rem;
+    
+    }
+    h2{
+       text-align:left;
+    }
+    .date{
+        margin-right: 5rem;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .network{
+        margin-left: 0;
+        padding-top: 2rem;
+    }
+    }
+   
+
+
+
+
+
+
+
+
